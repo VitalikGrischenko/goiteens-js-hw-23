@@ -29,7 +29,7 @@ addItem(item1) {
     const indexOfItemRemove = this.items.findIndex(
       (item) => item === itemsRemove
     );
-    const splicedItem = this.items.splice(indexOfItemsRemove, 1);
+    const splicedItem = this.items.splice(indexOfItemRemove, 1);
     console.log(splicedItem);
     return splicedItem;
   }

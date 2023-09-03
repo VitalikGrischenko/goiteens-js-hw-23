@@ -21,14 +21,14 @@ this.email = email;
     }
 
 getInfo() {
-    console.log(`Email - ${this.email}. Login - ${this.login}`);
-    return `Email - ${this.email}. Login - ${this.login}`;
+    console.log(`Login - ${this.login} Email - ${this.email}. `);
+    return `Login - ${this.login} Email - ${this.email}.` ;
 }
 
 }
 
 
-console.log(Account.prototype.getInfo);
+//console.log(Account.prototype.getInfo);
 const mango = new Account({
 login: 'Mangozedog',
 email: 'mango@dog.woof',
